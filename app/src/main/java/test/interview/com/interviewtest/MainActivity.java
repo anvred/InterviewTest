@@ -55,6 +55,7 @@ public class MainActivity extends BaseActivity {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
                 .subscribe(this::handleResponse, this::handleError));
+
     }
 
     private void handleResponse(List<DataModel> fullDataList) {
