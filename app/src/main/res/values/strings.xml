@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InterviewTest</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+</resources>
